@@ -30,16 +30,24 @@ body {
 }
 
 .site__container {
-    width: 90%;
-    margin: auto;
+    width:90%;
+    margin: -100px auto;
 }
 
 /* section of each page */
 section {
-    /* border: 1px solid red; */
-    margin-top: 5rem;
-    height: 100vh;
-    background-color: red;
+   padding-top: 3rem;
+}
+
+section>h1 {
+    text-align: center;
+    color: #3174bb;
+}
+
+section>p {
+    text-align: center;
+    color: #f6f6f6;
+    font-size: 8px;
 }
 
 .container {
