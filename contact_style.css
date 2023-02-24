@@ -149,7 +149,40 @@ textarea:hover {
 
 /* for mobile */
 @media screen and (max-width : 600px) {
+
     .contact-block {
-        gap: .7rem;
+        gap: 1rem;
+        align-items: center;
+        padding: 0px;
+    }
+
+
+
+    .contact-block input,
+    textarea {
+
+        border-radius: 8px;
+        outline: none;
+        background-color: #294c83;
+        color: #b9b9b9;
+        padding: 0 10px;
+        font-size: 14px;
+        border: 1px solid transparent;
+    }
+
+    .message textarea {
+        padding: 2px;
+        resize: none;
+        /* height: 50px; */
+    }
+
+    .contact__details small {
+        font-size: 12px;
+    }
+
+
+
+    .contact-block label {
+        font-size: 14px;
     }
 }
