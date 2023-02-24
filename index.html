@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="skill_style.css">
     <link rel="stylesheet" href="project_style.css">
     <link rel="stylesheet" href="footer_style.css">
+    <link rel="stylesheet" href="contact_style.css">
 
 </head>
 
@@ -31,11 +32,11 @@
 
             <!-- Navbar -->
             <nav>
-                <a href="#" class="nav__tag">Home</a>
-                <a href="#about_page" class="nav__tag">About</a>
-                <a href="#skills_page" class="nav__tag">Skills</a>
-                <a href="#project_page" class="nav__tag">Projects</a>
-                <a href="#contact_page" class="nav__tag btn-primary nav_btn">Contact</a>
+                <a target="_blank" href="#" class="nav__tag">Home</a>
+                <a target="_blank" href="#about_page" class="nav__tag">About</a>
+                <a target="_blank" href="#skills_page" class="nav__tag">Skills</a>
+                <a target="_blank" href="#project_page" class="nav__tag">Projects</a>
+                <a target="_blank" href="#contact_page" class="nav__tag btn-primary nav_btn">Contact</a>
             </nav>
             <!-- cross icon -->
             <div class="mode__btn">
@@ -56,16 +57,19 @@
 
                 <h4>Web Developer</h4>
                 <div class="home__buttons">
-                    <a href="" class="btn btn-primary">Resume</a> <!--Download Resume-->
-                    <a href="" class="btn">Support</a> <!--Support-->
+                    <a target="_blank" href="" class="btn btn-primary">Resume</a> <!--Download Resume-->
+                    <a target="_blank" href="" class="btn">Support</a> <!--Support-->
                 </div>
             </div>
             <div class="home__right">
                 <img src="./assest/me.jpg" alt="">
                 <div class="social_media_links">
-                    <a href="https://github.com" target="_blank"><img src="./assest/github.png" alt=""></a>
-                    <a href="https://instagram.com" target="_blank"><img src="./assest/instagram.png" alt=""></a>
-                    <a href="https://linkedin.com" target="_blank"><img src="./assest/linkedin.png" alt=""></a>
+                    <a target="_blank" href="https://github.com" target="_blank"><img src="./assest/github.png"
+                            alt=""></a>
+                    <a target="_blank" href="https://instagram.com" target="_blank"><img src="./assest/instagram.png"
+                            alt=""></a>
+                    <a target="_blank" href="https://linkedin.com" target="_blank"><img src="./assest/linkedin.png"
+                            alt=""></a>
                 </div>
             </div>
         </div>
@@ -265,8 +269,8 @@
                     </div>
                     <h3>Title</h3>
                     <div class="projects__para">
-                        <a href="" class="btn">See live</a>
-                        <a href="" class="btn btn-primary">Github</a>
+                        <a target="_blank" href="" class="btn">See live</a>
+                        <a target="_blank" href="" class="btn btn-primary">Github</a>
                     </div>
                 </div>
 
@@ -276,8 +280,8 @@
                     </div>
                     <h3>Title</h3>
                     <div class="projects__para">
-                        <a href="" class="btn">See live</a>
-                        <a href="" class="btn btn-primary">Github</a>
+                        <a target="_blank" href="" class="btn">See live</a>
+                        <a target="_blank" href="" class="btn btn-primary">Github</a>
                     </div>
                 </div>
 
@@ -287,8 +291,8 @@
                     </div>
                     <h3>Title</h3>
                     <div class="projects__para">
-                        <a href="" class="btn">See live</a>
-                        <a href="" class="btn btn-primary">Github</a>
+                        <a target="_blank" href="" class="btn">See live</a>
+                        <a target="_blank" href="" class="btn btn-primary">Github</a>
                     </div>
                 </div>
 
@@ -299,8 +303,8 @@
                     </div>
                     <h3>Title</h3>
                     <div class="projects__para">
-                        <a href="" class="btn">See live</a>
-                        <a href="" class="btn btn-primary">Github</a>
+                        <a target="_blank" href="" class="btn">See live</a>
+                        <a target="_blank" href="" class="btn btn-primary">Github</a>
                     </div>
                 </div>
 
@@ -310,9 +314,72 @@
         </section>
 
 
+        <!-- contact page section -->
+
         <section id="contact_page">
             <p>FOR MARE DETAILS</p>
             <h1>CONTACT</h1>
+
+            <div class="container contact__container">
+
+                <!-- social contacts -->
+                <div class="left__contacts">
+
+                    <article class="contact__details">
+                        <img src="./assest/gmail.png" alt="" width="25px">
+                        <h4>Gmail</h4>
+                        <small><a target="_blank"
+                                href="mailto:roshanrjaurkar50@gmail.com">roshanrajurkar50@gmail.com</a></small>
+                    </article>
+
+
+
+                    <article class="contact__details">
+                        <img src="./assest/instagram.png" alt="" width="25px">
+                        <h4>Instagram</h4>
+                        <small><a target="_blank"
+                                href="https://ig.me/m/roshan_rajurkar__">@roshan_rajurkar__</a></small>
+                    </article>
+
+
+                    <article class="contact__details">
+                        <img src="./assest/whatsapp.png" alt="" width="25px">
+                        <h4>Whatsup</h4>
+                        <small><a target="_blank" href="https://wa.me/+918767198073">message me</a></small>
+                    </article>
+
+                </div>
+
+
+                <!-- contact form -->
+                <div class="contact__form">
+                    <!-- set emailjs to send mail on phone -->
+                    <form action="">
+                        <div class="contact-block name">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Enter name..." required>
+                        </div>
+
+                        <div class="contact-block email">
+                            <label for="name">Email</label>
+                            <input type="email" name="name" placeholder="Enter email..." required>
+                        </div>
+
+                        <div class="contact-block message">
+                            <label for="message">Message</label>
+                            <textarea name="message" rows="4" placeholder="Write message here..." required></textarea>
+                        </div>
+
+                        <div class="contact-block submission">
+
+                            <button type="reset">Reset</button>
+                            <button type="submit" class="primary">Submit</button>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </section>
 
 
@@ -326,10 +393,10 @@
                 <img src="./assest/thank-you.png" alt="">
 
                 <div class="para__links">
-                    <a href="">IN</a>
-                    <a href="">LIN</a>
-                    <a href="">GI</a>
-                    <a href="">Lee</a>
+                    <a target="_blank" href="">IN</a>
+                    <a target="_blank" href="">LIN</a>
+                    <a target="_blank" href="">GI</a>
+                    <a target="_blank" href="">Lee</a>
                 </div>
             </div>
         </footer>
@@ -340,8 +407,8 @@
 
 
 
-    <!-- scripts -->
-    <script src="Index.js"></script>
+        <!-- scripts -->
+        <script src="Index.js"></script>
 </body>
 
 </html>
