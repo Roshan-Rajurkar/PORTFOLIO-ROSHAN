@@ -176,13 +176,20 @@ textarea:hover {
         /* height: 50px; */
     }
 
+    .contact__details {
+        width: 70%;
+    }
+
     .contact__details small {
         font-size: 12px;
     }
 
-
-
     .contact-block label {
         font-size: 14px;
+    }
+
+    form {
+        gap: 1.5rem;
+        padding: 10px 7px;
     }
 }
