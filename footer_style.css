@@ -1,0 +1,32 @@
+.footer__container {
+    background: #151313;
+    margin-top: 2rem;
+    border-radius: 13px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para__links {
+    display: flex;
+    gap: 10px;
+    /* background-color: red; */
+}
+
+
+/* for mobile */
+@media screen and (max-width : 600px) {
+
+    .footer__bottom {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+}

@@ -32,11 +32,11 @@
 
             <!-- Navbar -->
             <nav>
-                <a target="_blank" href="#" class="nav__tag">Home</a>
-                <a target="_blank" href="#about_page" class="nav__tag">About</a>
-                <a target="_blank" href="#skills_page" class="nav__tag">Skills</a>
-                <a target="_blank" href="#project_page" class="nav__tag">Projects</a>
-                <a target="_blank" href="#contact_page" class="nav__tag btn-primary nav_btn">Contact</a>
+                <a href="#" class="nav__tag">Home</a>
+                <a href="#about_page" class="nav__tag">About</a>
+                <a href="#skills_page" class="nav__tag">Skills</a>
+                <a href="#project_page" class="nav__tag">Projects</a>
+                <a href="#contact_page" class="nav__tag btn-primary nav_btn">Contact</a>
             </nav>
             <!-- cross icon -->
             <div class="mode__btn">
@@ -350,32 +350,32 @@
 
                 </div>
 
-
+                <!-- day 5 -->
                 <!-- contact form -->
                 <div class="contact__form">
                     <!-- set emailjs to send mail on phone -->
-                    <form action="">
+                    <form id="myForm">
                         <div class="contact-block name">
                             <label for="name">Name</label>
-                            <input type="text" name="name" placeholder="Enter name..." required>
+                            <input type="text" name="name" id="myname" placeholder="Enter name..." required>
                         </div>
 
                         <div class="contact-block email">
-                            <label for="name">Email</label>
-                            <input type="email" name="name" placeholder="Enter email..." required>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="myemail" placeholder="Enter email..." required>
                         </div>
 
                         <div class="contact-block message">
                             <label for="message">Message</label>
-                            <textarea name="message" rows="4" placeholder="Write message here..." required></textarea>
+                            <textarea name="message" id="mymessage" rows="4" placeholder="Write message here..."
+                                required></textarea>
                         </div>
 
                         <div class="contact-block submission">
-
                             <button type="reset">Reset</button>
-                            <button type="submit" class="primary">Submit</button>
-
+                            <button type="submit" class="primary" onclick="sendMail()">Submit</button>
                         </div>
+
                     </form>
                 </div>
             </div>
@@ -384,31 +384,50 @@
 
 
 
-        <!-- DAY 5 -->
-        <!-- <footer id="footer_page">
+        <!-- DAY 6 -->
+        <footer id="footer_page">
+
             <div class="footer__container">
 
-                <small>&copy;copyright 2023 <b>ROSHAN</b></small>
-
-                <img src="./assest/thank-you.png" alt="">
-
-                <div class="para__links">
-                    <a target="_blank" href="">IN</a>
-                    <a target="_blank" href="">LIN</a>
-                    <a target="_blank" href="">GI</a>
-                    <a target="_blank" href="">Lee</a>
+                <div class="footer__top">
+                    <!-- feedback component -->
                 </div>
+
+                <div class="footer__bottom">
+                    <small>&copy;copyright 2023 <b>ROSHAN</b></small>
+
+                    <img src="./assest/thank-you.png" alt="" width="100px" height="120px">
+
+                    <div class="para__links">
+                        <a target="_blank" href=""><img src="./assest/instagram.png" alt="" width="20px"></a>
+                        <a target="_blank" href=""><img src="./assest/linkedin.png" alt="" width="20px"></a>
+                        <a target="_blank" href=""><img src="./assest/github.png" alt="" width="20px"></a>
+                        <a target="_blank" href=""><img src="./assest/LeetCode.png" alt="" width="20px"></a>
+                    </div>
+                </div>
+
             </div>
         </footer>
     </div>
 
- -->
 
 
 
 
-        <!-- scripts -->
-        <script src="Index.js"></script>
+
+    <!-- scripts -->
+    <!-- //form  -->
+
+    <script src="Index.js"></script>
+    <!-- for emailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("TwR4uGBoc8VfmyewI");
+        })();
+    </script>
+
 </body>
 
 </html>
