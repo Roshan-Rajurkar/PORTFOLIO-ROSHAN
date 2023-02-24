@@ -156,8 +156,6 @@ textarea:hover {
         padding: 0px;
     }
 
-
-
     .contact-block input,
     textarea {
 
@@ -189,7 +187,7 @@ textarea:hover {
     }
 
     form {
-        gap: 1.5rem;
-        padding: 10px 7px;
+        gap: 1.3rem;
+        padding: 7px 7px;
     }
 }
