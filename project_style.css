@@ -21,7 +21,7 @@
     margin-bottom: 4.2rem;
     padding: 0 0 10px 0;
     border-radius: 0px 0 13px 13px;
-    background-color: 	#0f0e0e;
+    background-color: #0f0e0e;
     border: 2px solid transparent;
     color: #0f5db3;
 }
@@ -40,7 +40,6 @@
     overflow: hidden;
     height: 80%;
 }
-
 
 .project__wrapper .cover img {
     overflow: hidden;
@@ -63,12 +62,9 @@
     gap: 10px;
 }
 
-.btn:hover{
+.btn:hover {
     color: #fff;
 }
-
-
-
 
 
 /* Responsiveness */

@@ -49,7 +49,6 @@ function sendMail() {
 }
 
 
-
 // Making payment alert
 function makePayment(){
   setTimeout(() => {
