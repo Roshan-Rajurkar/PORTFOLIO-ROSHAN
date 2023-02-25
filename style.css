@@ -41,12 +41,12 @@ section {
 
 section>h1 {
     text-align: center;
-    color: #3174bb;
+    color: #1161b6;
 }
 
 section>p {
     text-align: center;
-    color: #f6f6f6;
+    color: #ffbbbb;
     font-size: 8px;
 }
 
@@ -89,12 +89,12 @@ nav {
     text-decoration: none;
     color: rgb(165, 165, 165);
     font-size: 16px;
+    border: 1px solid transparent;
 }
 
 .nav__tag:hover {
-    color: rgb(145, 35, 35);
+    /* border-color: #3174bb; */
     color: #3174bb;
-    transform: scale(1.15);
     transition: var(--transition);
 }
 
@@ -130,9 +130,9 @@ nav {
 
 
 
-.dark-mode {
-    background-color: #070707;
-    color: white;
+.bright-mode {
+    background-color: #cff5ff;
+    /* color: rgb(211, 170, 170); */
 }
 
 

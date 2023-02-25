@@ -2,15 +2,22 @@
 const toggle = document.getElementById("toggle_image");
 const moon = "./assest/moon.png";
 const sun = "./assest/sun.png";
-const header = document.getElementsByTagName("header");
-// console.log(header);
+let headerC = document.getElementsByTagName("header");
+
+// function changeHeaderAndFooter(header) {
+
+//   console.log("I also Execute");
+// }
+
 function changeMode() {
   var element = document.body;
-  element.classList.toggle("dark-mode");
-  if (document.body.className == "dark-mode") {
-    toggle.src = moon;
-  } else {
+  element.classList.toggle("bright-mode");
+  if (document.body.className == "bright-mode") {
     toggle.src = sun;
+    document.body.style.color = "#454545";
+  } else {
+    toggle.src = moon;
+    document.body.style.color = "white";
   }
   toggle.style.transition = "all .6s ease-in";
 }
@@ -39,4 +46,13 @@ function sendMail() {
     .catch((err) => {
       console.log("Check msg");
     });
+}
+
+
+
+// Making payment alert
+function makePayment(){
+  setTimeout(() => {
+    alert("Make sure to Donate");
+  }, 2000);
 }

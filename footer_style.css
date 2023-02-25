@@ -1,7 +1,7 @@
 .footer__container {
+    margin: 0;
     background: #151313;
     margin-top: 2rem;
-    border-radius: 13px;
     padding: 10px 30px;
     display: flex;
     flex-direction: column;

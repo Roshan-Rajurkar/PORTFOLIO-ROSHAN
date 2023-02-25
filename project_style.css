@@ -21,16 +21,14 @@
     margin-bottom: 4.2rem;
     padding: 0 0 10px 0;
     border-radius: 0px 0 13px 13px;
-    background-color: #b2bfc5;
+    background-color: 	#0f0e0e;
     border: 2px solid transparent;
-    /* makes blur */
-    /* filter: blur(3px); */
+    color: #0f5db3;
 }
 
 .project__wrapper:hover {
     background-color: transparent;
     transition: var(--transition);
-    color: #fff;
     border: 2px solid #0f5db3;
     transform: scale(1.2);
     /* remove blur */
@@ -39,8 +37,6 @@
 
 
 .project__wrapper .cover {
-    background-color: red;
-    object-fit: cover;
     overflow: hidden;
     height: 80%;
 }
@@ -50,17 +46,25 @@
     overflow: hidden;
     display: block;
     width: 100%;
+    height: 100%;
+    object-fit: fill;
+
 
 }
 
+/* 
 .project__wrapper h3 {
-    color: rgb(99, 99, 99);
-}
+    color: rgb(255, 255, 255);
+} */
 
 .projects__para {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+}
+
+.btn:hover{
+    color: #fff;
 }
 
 
