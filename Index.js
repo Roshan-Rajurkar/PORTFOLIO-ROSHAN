@@ -50,7 +50,7 @@ function sendMail() {
 
 
 // Making payment alert
-function makePayment(){
+function makePayment() {
   setTimeout(() => {
     alert("Make sure to Donate");
   }, 2000);
