@@ -1,3 +1,12 @@
+// welcome sound
+window.addEventListener('load', function () {
+  let audio = document.getElementById('welcomeSound');
+  audio.play();
+});
+
+
+
+
 // Dark Mode and White Mode
 const toggle = document.getElementById("toggle_image");
 const moon = "./assest/moon.png";
@@ -55,3 +64,4 @@ function makePayment() {
     alert("Make sure to Donate");
   }, 2000);
 }
+

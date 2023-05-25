@@ -89,21 +89,21 @@
     padding: 30px 20px;
 }
 
-
 .home__right img {
-    /* background: red; */
-    /* padding-top: 10px; */
     display: block;
-    width: 60%;
-    border-radius: 50%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 75%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4),
+        0 4px 20px rgba(0, 0, 0, 0.6),
+        0 8px 40px rgba(1, 1, 1, 0.8);
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* margin-left: 30px; */
     margin-top: 5px;
 }
+
+
 
 @keyframes floating {
     0% {
