@@ -1,400 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="website icon" href="./assest/website-icon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="website icon" href="./assest/website-icon.png" />
 
     <title>₹OSHAN</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home_style.css">
-    <link rel="stylesheet" href="about_style.css">
-    <link rel="stylesheet" href="skill_style.css">
-    <link rel="stylesheet" href="project_style.css">
-    <link rel="stylesheet" href="footer_style.css">
-    <link rel="stylesheet" href="contact_style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home_style.css" />
+    <link rel="stylesheet" href="about_style.css" />
+    <link rel="stylesheet" href="skill_style.css" />
+    <link rel="stylesheet" href="project_style.css" />
+    <link rel="stylesheet" href="footer_style.css" />
+    <link rel="stylesheet" href="contact_style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <audio id="welcomeSound" src="welcome.mp3" preload="auto"></audio>
 
     <div class="site__container">
-        <!-- DAY-1 -->
-        <!-- header -->
-        <header>
-            <div class="logo">
-                <a href="#" class="home_logo">
-                    <h2>
-                        <b
-                            style="color: rgb(26, 89, 197); font-size: 34px; font-family: Verdana, Geneva, Tahoma, sans-serif;">₹</b>OSHAN
-                    </h2>
-                </a>
-            </div>
-
-            <!-- Navbar -->
-            <nav>
-                <a href="#" class="nav__tag">Home</a>
-                <a href="#about_page" class="nav__tag">About</a>
-                <a href="#skills_page" class="nav__tag">Skills</a>
-                <a href="#project_page" class="nav__tag">Projects</a>
-                <a href="#contact_page" class="nav__tag btn-primary nav_btn">Contact</a>
-            </nav>
-            <!-- cross icon -->
-            <div class="mode__btn">
-                <!-- dark and white src change kr denge js se  -->
-                <img onclick="changeMode()" id="toggle_image" src="./assest/moon.png" alt="">
-            </div>
-
-        </header>
-
-        <!-- DAY-2 Home Page-->
-        <div class="container home__container">
-
-            <div class="home__left">
-                <h6>Hello I'm</h6>
-                <h1><i>R</i>OSHAN <i>R</i>AJURKAR</h1>
-
-                <h4>Web Developer</h4>
-
-                <div class="social_media_links">
-                    <a target="_blank" href="https://github.com/Roshan-Rajurkar" target="_blank"><img
-                            src="./assest/github.png" alt=""></a>
-
-                    <a target="_blank" href="https://leetcode.com/roshan_rajurkar/" target="_blank"><img
-                            src="./assest/LeetCode.png" alt=""></a>
-
-                    <a target="_blank" href="https://www.instagram.com/roshan_rajurkar__/" target="_blank"><img
-                            src="./assest/instagram.png" alt=""></a>
-
-                    <a target="_blank" href="https://www.linkedin.com/in/roshan-rajurkar-3400a4206/"><img
-                            src="./assest/linkedin.png" alt=""></a>
-                </div>
-
-                <div class="home__buttons">
-
-                    <a target="_blank" href="" download class="btn btn-primary">Resume</a>
-                    <!--Download Resume-->
-                    <a target="_self" href="./donate.html" class="btn">Buy Me Coffee🍵</a> <!--Support-->
-                </div>
-            </div>
-            <div class="home__right">
-                <img src="./assest/me.jpg" alt="">
-            </div>
+      <!-- DAY-1 -->
+      <!-- header -->
+      <header>
+        <div class="logo">
+          <a href="#" class="home_logo">
+            <h2>
+              <b
+                style="
+                  color: rgb(26, 89, 197);
+                  font-size: 34px;
+                  font-family: Verdana, Geneva, Tahoma, sans-serif;
+                "
+                >₹</b
+              >OSHAN
+            </h2>
+          </a>
         </div>
-        <hr id="separator" class="separator separator--line" />
 
-        <!-- DAY 3 -->
-        <section id="about_page">
+        <!-- Navbar -->
+        <nav>
+          <a href="#" class="nav__tag">Home</a>
+          <a href="#about_page" class="nav__tag">About</a>
+          <a href="#skills_page" class="nav__tag">Skills</a>
+          <a href="#project_page" class="nav__tag">Projects</a>
+          <a href="#contact_page" class="nav__tag btn-primary nav_btn"
+            >Contact</a
+          >
+        </nav>
+        <!-- cross icon -->
+        <div class="mode__btn">
+          <!-- dark and white src change kr denge js se  -->
+          <img
+            onclick="changeMode()"
+            id="toggle_image"
+            src="./assest/moon.png"
+            alt=""
+          />
+        </div>
+      </header>
 
-            <h1>ABOUT ME</h1>
+      <!-- DAY-2 Home Page-->
+      <div class="container home__container">
+        <div class="home__left">
+          <h6>Hello I'm</h6>
+          <h1><i>R</i>OSHAN <i>R</i>AJURKAR</h1>
 
-            <div class="container about__container">
+          <h4>Software Developer 🙋‍♂️</h4>
 
-                <div class="top_about">
-                    <div class="about__me__img">
-                        <img src="./assest/about__mee.jpg" alt="">
-                    </div>
-                    <div class="about__me__info">
-                        <p id="para1">Hello! My <b>name is Roshan</b> and I enjoy creating things that live on the
-                            internet. My interest in web development <b>started back in 2021</b> when i decided to try
-                            creating my own animations with CSS and HTML. And I felt deep interested in it and pursue as
-                            a developer.
-                            Fast-forward to today, and I've the privilege of making fabulous websites and worked as a
-                            <b>Full Stack intern in DevTown</b>. My main focus these days is building accessible,
-                            inclusive
-                            products and
-                            digital experiences for variety of users.
+          <div class="social_media_links">
+            <a target="_blank" href="https://github.com/Roshan-Rajurkar">
+              <img src="./assest/github.png" alt="GitHub" class="bounce-icon" />
+            </a>
 
-                        </p>
-                        <p id="para2">
-                            I also recently created a <b>weather App, note taking app and portfolio site</b> and many
-                            other projects using technologies such as HTML, CSS & JavaScript, And also learning
-                            <b>React</b> to
-                            Up-skill my <b>front-end development</b>.
-                        </p>
-                    </div>
+            <a target="_blank" href="https://leetcode.com/roshan_rajurkar/">
+              <img
+                src="./assest/LeetCode.png"
+                alt="LeetCode"
+                class="bounce-icon"
+              />
+            </a>
 
-                    <div>
-                        <h1>Yaha certificates add karney hai
-                            Matlab tile only you can click and download my certificates
-                            Isko flex kar dena
-                        </h1>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/roshan_rajurkar__/"
+            >
+              <img
+                src="./assest/instagram.png"
+                alt="Instagram"
+                class="bounce-icon"
+              />
+            </a>
 
-                    </div>
-                </div>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/roshan-rajurkar-3400a4206/"
+            >
+              <img
+                src="./assest/linkedin.png"
+                alt="LinkedIn"
+                class="bounce-icon"
+              />
+            </a>
+
+            <a target="_blank" href="https://www.youtube.com/@roshanrajurkar_">
+              <img
+                src="./assest/Youtube.png"
+                alt="Youtube"
+                class="bounce-icon"
+              />
+            </a>
+          </div>
+
+          <div class="home__buttons">
+            <a
+              target="_blank"
+              href="./RESUME.pdf"
+              download
+              class="btn btn-primary"
+              >Resume</a
+            >
+            <!--Download Resume-->
+            <a target="_self" href="./donate.html" class="btn"
+              >Buy Me Coffee🍵</a
+            >
+            <!--Support-->
+          </div>
+        </div>
+        <div class="home__right">
+          <img src="./assest/me.jpg" alt="" />
+        </div>
+      </div>
+      <hr id="separator" class="separator separator--line" />
+
+      <!-- DAY 3 -->
+      <section id="about_page">
+        <h1>ABOUT ME</h1>
+
+        <div class="container about__container">
+          <div class="top_about">
+            <div class="about__me__img">
+              <img src="./assest/about__mee.jpg" alt="" />
             </div>
-        </section>
+            <div class="about__me__info">
+              <p id="para1">
+                Hello! My <b>name is Roshan Rajurkar</b>, and I have a deep
+                passion for creating dynamic and impactful web solutions. My
+                journey into the world of development began with an interest in
+                building animations using HTML and CSS back in 2021. Since then,
+                I have dedicated myself to honing my skills, culminating in
+                valuable experiences like working as a
+                <b>Software Development Engineer</b> at Shrim Technolab LLP.
+                Here, I developed high-performance web applications, optimized
+                dashboards, and collaborated with design and QA teams to deliver
+                exceptional digital experiences. My focus remains on crafting
+                scalable and inclusive solutions that meet diverse user needs.
+              </p>
+              <p id="para2">
+                Over the years, I have worked on impactful projects such as a
+                <b
+                  >Hotel Booking App, an E-commerce Vendor Dashboard, and a Blog
+                  Platform</b
+                >. These projects allowed me to utilize a variety of
+                technologies, including
+                <b>React, Firebase, Node.js, and TypeScript</b>, to develop
+                robust features like dynamic data fetching, authentication, and
+                analytics dashboards. I'm also continually expanding my
+                skillset, currently diving deeper into <b>React Native</b> and
+                other frameworks to stay at the forefront of front-end
+                development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- DAY 4 skills page -->
 
-        <!-- DAY 4 skills page -->
+      <!-- DAY 5 project page section-->
+      <section id="project_page">
+        <h1>PROJECTS</h1>
 
-        <section id="skills_page">
-            <h1>Skills</h1>
+        <!-- try to build using javascript only i.e dynamically  -->
+        <div class="project__container">
+          <div class="project__wrapper">
+            <div class="cover">
+              <img
+                src="./assest/Projects Cover/slug-fontend.png"
+                alt="cover_image"
+              />
+            </div>
+            <h3>CMS Vendor Dashboard</h3>
+            <div class="projects__para">
+              <a
+                target="_blank"
+                href="https://slug-server.onrender.com/"
+                class="btn btn-primary"
+                >See live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Roshan-Rajurkar/slug-admin"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
 
-            <div class="skill__container">
+          <div class="project__wrapper">
+            <div class="cover">
+              <img
+                src="./assest/Projects Cover/booHook.png"
+                alt="cover_image"
+              />
+            </div>
+            <h3>Boohook: Booking App</h3>
+            <div class="projects__para">
+              <a
+                target="_blank"
+                href="https://roshan-rajurkar.github.io/roshanrajurkar/"
+                class="btn btn-primary"
+                >See live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Roshan-Rajurkar/BooHook"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
 
-                <!-- for Frontend skills-->
+          <div class="project__wrapper">
+            <div class="cover">
+              <img
+                src="https://www.sheknows.com/wp-content/uploads/2020/03/online-cooking-class.jpg"
+                alt="cover_image"
+              />
+            </div>
+            <h3>Recipe App</h3>
 
-                <div class="skills Frontend">
-                    <h3>Frontend</h3>
-                    <div class="skill_content">
+            <div class="projects__para">
+              <a
+                target="_blank"
+                href="https://roshan-rajurkar.github.io/MakeTastyy/"
+                class="btn btn-primary"
+                >See live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Roshan-Rajurkar/MakeTastyy"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
 
-                        <article class="skill__details">
-                            <img src="./assest/skills_icons/dsa.png" alt="" width="20px">
-                            <div>
-                                <h4>DSA</h4>
-                                <small class="text-light">Intermediate</small>
-                            </div>
-                        </article>
+          <div class="project__wrapper">
+            <div class="cover">
+              <img
+                src="./assest/Projects Cover/cntact-manager.jpg"
+                alt="cover_image"
+              />
+            </div>
+            <h3>Contact Manager App</h3>
+            <div class="projects__para">
+              <a
+                target="_blank"
+                href="https://roshan-rajurkar.github.io/React_Contact_Manager/"
+                class="btn btn-primary"
+                >See live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Roshan-Rajurkar/React_Contact_Manager"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
 
-                        <article class="skill__details">
-                            <img src="./assest/skills_icons/js.png" alt="" width="20px">
-                            <div>
-                                <h4>Javascript</h4>
-                                <small class="text-light">Intermediate</small>
-                            </div>
-                        </article>
+          <div class="project__wrapper">
+            <div class="cover">
+              <img
+                src="./assest//Projects Cover/tic tac toe.png"
+                alt="cover_image"
+              />
+            </div>
+            <h3>Tic Tac Toe</h3>
+            <div class="projects__para">
+              <a
+                target="_blank"
+                href="https://roshan-rajurkar.github.io/Tic-Tac-Toe/"
+                class="btn btn-primary"
+                >See live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Roshan-Rajurkar/Tic-Tac-Toe"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
 
-                        <article class="skill__details">
-                            <img src="./assest/skills_icons/html.png" alt="" width="20px">
-                            <div>
-                                <h4>HTML</h4>
-                                <small class="text-light">Experience</small>
-                            </div>
-                        </article>
+          <div class="project__wrapper">
+            <div class="cover">
+              <img
+                src="./assest//Projects Cover/weather cover.jpg"
+                alt="cover_image"
+              />
+            </div>
+            <h3>Weather App</h3>
+            <div class="projects__para">
+              <a
+                target="_blank"
+                href="https://roshan-rajurkar.github.io/Weather-APP/"
+                class="btn btn-primary"
+                >See live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Roshan-Rajurkar/Weather-APP"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
 
-                        <article class="skill__details">
-                            <img src="./assest/skills_icons/css.png" alt="" width="20px">
-                            <div>
-                                <h4>CSS</h4>
-                                <small class="text-light">Intermediate</small>
-                            </div>
-                        </article>
+          <div class="project__wrapper">
+            <div class="cover">
+              <img
+                src="./assest/Projects Cover/Note Taking App.png"
+                alt="cover_image"
+              />
+            </div>
+            <h3>Note Taking App</h3>
+            <div class="projects__para">
+              <a
+                target="_blank"
+                href=" https://roshan-rajurkar.github.io/NoteTaking-App/"
+                class="btn btn-primary"
+                >See live</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Roshan-Rajurkar/NoteTaking-App"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
-                        <article class="skill__details">
-                            <img src="./assest/skills_icons/react.png" alt="" width="20px">
-                            <div>
-                                <h4>REACT.JS</h4>
-                                <small class="text-light">Intermediate</small>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+      <!-- DAY 6 contact page section -->
 
-                <!-- for backend skills -->
+      <section id="contact_page">
+        <p>FOR MORE DETAILS</p>
+        <h1>CONTACT</h1>
 
-                <div class="skills backend">
-                    <h3>Backend</h3>
-                    <div class="skill_content">
+        <div class="container contact__container">
+          <!-- social contacts -->
+          <div class="left__contacts">
+            <article class="contact__details">
+              <img src="./assest/gmail.png" alt="" width="25px" />
+              <h4>Gmail</h4>
+              <small
+                ><a target="_blank" href="mailto:roshanrjaurkar50@gmail.com"
+                  >roshanrajurkar50@gmail.com</a
+                ></small
+              >
+            </article>
 
-                        <article class="skill__details">
-                            <img src="./assest/skills_icons/firebase.png" alt="" width="20px"
-                                style="object-fit:cover;border-radius:50%">
-                            <div>
-                                <h4>Firebase</h4>
-                                <small class="text-light">Intermediate</small>
-                            </div>
-                        </article>
+            <article class="contact__details">
+              <img src="./assest/instagram.png" alt="" width="25px" />
+              <h4>Instagram</h4>
+              <small
+                ><a target="_blank" href="https://ig.me/m/roshan_rajurkar__"
+                  >@roshan_rajurkar__</a
+                ></small
+              >
+            </article>
 
-                        <article class="skill__details">
-                            <img src="./assest/skills_icons/sql.png" alt="" width="20px">
-                            <div>
-                                <h4>SQL</h4>
-                                <small class="text-light">Practical</small>
-                            </div>
-                        </article>
+            <article class="contact__details">
+              <img src="./assest/whatsapp.png" alt="" width="25px" />
+              <h4>Whatsup</h4>
+              <small
+                ><a target="_blank" href="https://wa.me/+918767198073"
+                  >message me</a
+                ></small
+              >
+            </article>
+          </div>
 
-                    </div>
-                </div>
+          <!-- day 7 -->
+          <!-- contact form -->
+          <div class="contact__form">
+            <!-- set emailjs to send mail on phone -->
+            <form id="myForm">
+              <div class="contact-block name">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="myname"
+                  placeholder="Enter name..."
+                  required
+                />
+              </div>
+
+              <div class="contact-block email">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="myemail"
+                  placeholder="Enter email..."
+                  required
+                />
+              </div>
+
+              <div class="contact-block message">
+                <label for="message">Send message</label>
+                <textarea
+                  name="message"
+                  id="mymessage"
+                  rows="4"
+                  placeholder="Write message here..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="contact-block submission">
+                <button type="reset">Reset</button>
+                <button type="submit" class="primary" onclick="sendMail()">
+                  Send msg
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- DAY 8 -->
+      <footer id="footer_page">
+        <div class="footer__container">
+          <div class="footer__bottom">
+            <div class="left__footer">
+              <img src="./assest/website-icon.png" alt="" width="20px" />
+              <small>&copy;copyright 2023 <b>ROSHAN</b></small>
             </div>
 
+            <img
+              src="./assest/thank-you.png"
+              alt=""
+              width="200px"
+              height="120px"
+            />
 
-        </section>
-
-
-        <!-- DAY 5 project page section-->
-        <section id="project_page">
-            <h1>PROJECTS</h1>
-
-            <!-- try to build using javascript only i.e dynamically  -->
-            <div class="project__container">
-
-                <div class="project__wrapper">
-                    <div class="cover">
-                        <img src="https://www.sheknows.com/wp-content/uploads/2020/03/online-cooking-class.jpg"
-                            alt="cover_image">
-                    </div>
-                    <h3>Recipe App</h3>
-
-                    <div class="projects__para">
-                        <a target="_blank" href="https://roshan-rajurkar.github.io/MakeTastyy/"
-                            class="btn btn-primary">See
-                            live</a>
-                        <a target="_blank" href="https://github.com/Roshan-Rajurkar/MakeTastyy" class="btn">Github</a>
-                    </div>
-                </div>
-
-                <div class="project__wrapper">
-                    <div class="cover">
-                        <img src="./assest/Projects Cover/cntact-manager.jpg" alt="cover_image">
-                    </div>
-                    <h3>Contact Manager App</h3>
-                    <div class="projects__para">
-                        <a target="_blank" href="https://roshan-rajurkar.github.io/React_Contact_Manager/"
-                            class="btn btn-primary">See
-                            live</a>
-                        <a target="_blank" href="https://github.com/Roshan-Rajurkar/React_Contact_Manager"
-                            class="btn ">Github</a>
-                    </div>
-                </div>
-
-                <div class="project__wrapper">
-                    <div class="cover">
-                        <img src="./assest//Projects Cover/tic tac toe.png" alt="cover_image">
-                    </div>
-                    <h3>Tic Tac Toe</h3>
-                    <div class="projects__para">
-                        <a target="_blank" href="https://roshan-rajurkar.github.io/Tic-Tac-Toe/"
-                            class="btn btn-primary">See
-                            live</a>
-                        <a target="_blank" href="https://github.com/Roshan-Rajurkar/Tic-Tac-Toe" class="btn ">Github</a>
-                    </div>
-                </div>
-
-                <div class="project__wrapper">
-                    <div class="cover">
-                        <img src="./assest//Projects Cover/weather cover.jpg" alt="cover_image">
-                    </div>
-                    <h3>Weather App</h3>
-                    <div class="projects__para">
-                        <a target="_blank" href="https://roshan-rajurkar.github.io/Weather-APP/"
-                            class="btn btn-primary">See
-                            live</a>
-                        <a target="_blank" href="https://github.com/Roshan-Rajurkar/Weather-APP" class="btn ">Github</a>
-                    </div>
-                </div>
-
-                <div class="project__wrapper">
-                    <div class="cover">
-                        <img src="./assest/Projects Cover/Note Taking App.png" alt="cover_image">
-                    </div>
-                    <h3>Note Taking App</h3>
-                    <div class="projects__para">
-                        <a target="_blank" href=" https://roshan-rajurkar.github.io/NoteTaking-App/"
-                            class="btn btn-primary">See
-                            live</a>
-                        <a target="_blank" href="https://github.com/Roshan-Rajurkar/NoteTaking-App"
-                            class="btn ">Github</a>
-                    </div>
-                </div>
-
-
-
-
+            <div class="para__links">
+              <a target="_blank" href="https://github.com/Roshan-Rajurkar"
+                ><img src="./assest/github.png" alt="" width="20px"
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/roshan_rajurkar__/"
+                ><img src="./assest/instagram.png" alt="" width="20px"
+              /></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/roshan-rajurkar-3400a4206/"
+                ><img src="./assest/linkedin.png" alt="" width="20px"
+              /></a>
+              <a target="_blank" href="https://leetcode.com/roshan_rajurkar/"
+                ><img src="./assest/LeetCode.png" alt="" width="20px"
+              /></a>
             </div>
-
-        </section>
-
-
-        <!-- DAY 6 contact page section -->
-
-        <section id="contact_page">
-            <p>FOR MORE DETAILS</p>
-            <h1>CONTACT</h1>
-
-            <div class="container contact__container">
-
-                <!-- social contacts -->
-                <div class="left__contacts">
-
-                    <article class="contact__details">
-                        <img src="./assest/gmail.png" alt="" width="25px">
-                        <h4>Gmail</h4>
-                        <small><a target="_blank"
-                                href="mailto:roshanrjaurkar50@gmail.com">roshanrajurkar50@gmail.com</a></small>
-                    </article>
-
-
-
-                    <article class="contact__details">
-                        <img src="./assest/instagram.png" alt="" width="25px">
-                        <h4>Instagram</h4>
-                        <small><a target="_blank"
-                                href="https://ig.me/m/roshan_rajurkar__">@roshan_rajurkar__</a></small>
-                    </article>
-
-
-                    <article class="contact__details">
-                        <img src="./assest/whatsapp.png" alt="" width="25px">
-                        <h4>Whatsup</h4>
-                        <small><a target="_blank" href="https://wa.me/+918767198073">message me</a></small>
-                    </article>
-
-                </div>
-
-                <!-- day 7 -->
-                <!-- contact form -->
-                <div class="contact__form">
-                    <!-- set emailjs to send mail on phone -->
-                    <form id="myForm">
-                        <div class="contact-block name">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="myname" placeholder="Enter name..." required>
-                        </div>
-
-                        <div class="contact-block email">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="myemail" placeholder="Enter email..." required>
-                        </div>
-
-                        <div class="contact-block message">
-                            <label for="message">Send message</label>
-                            <textarea name="message" id="mymessage" rows="4" placeholder="Write message here..."
-                                required></textarea>
-                        </div>
-
-                        <div class="contact-block submission">
-                            <button type="reset">Reset</button>
-                            <button type="submit" class="primary" onclick="sendMail()">Send msg</button>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- DAY 8 -->
-        <footer id="footer_page">
-
-            <div class="footer__container">
-
-                <div class="footer__bottom">
-                    <div class="left__footer">
-                        <img src="./assest/website-icon.png" alt="" width="20px">
-                        <small>&copy;copyright 2023 <b>ROSHAN</b></small>
-                    </div>
-
-                    <img src="./assest/thank-you.png" alt="" width="200px" height="120px">
-
-                    <div class="para__links">
-                        <a target="_blank" href="https://github.com/Roshan-Rajurkar"><img src="./assest/github.png"
-                                alt="" width="20px"></a>
-                        <a target="_blank" href="https://www.instagram.com/roshan_rajurkar__/"><img
-                                src="./assest/instagram.png" alt="" width="20px"></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/roshan-rajurkar-3400a4206/"><img
-                                src="./assest/linkedin.png" alt="" width="20px"></a>
-                        <a target="_blank" href="https://leetcode.com/roshan_rajurkar/"><img src="./assest/LeetCode.png"
-                                alt="" width="20px"></a>
-                    </div>
-                </div>
-
-            </div>
-        </footer>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- scripts -->
@@ -402,15 +487,15 @@
 
     <script src="Index.js"></script>
     <!-- for emailjs -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <!-- day 9 -->
     <script type="text/javascript">
-        (function () {
-            emailjs.init("TwR4uGBoc8VfmyewI");
-        })();
+      (function () {
+        emailjs.init("TwR4uGBoc8VfmyewI");
+      })();
     </script>
-
-</body>
-
+  </body>
 </html>
